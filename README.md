@@ -96,3 +96,19 @@ Only after successfully publishing the full agreed dataset, code, and output fil
 ## Citation and licensing
 
 Use `CITATION.cff` as the initial software citation metadata (check the manuscript author order and final release details). No automatic code/data redistribution license has been assigned; see `LICENSING_NOTES.md` for decisions required before public sharing. Public Sentinel source-data terms and attribution should be reviewed separately from permissions to publish the manually interpreted validation points.
+
+## Computational reproducibility verification
+
+The analysis notebook was successfully executed in a separate
+repository clone using the existing Conda `gee` environment.
+
+All 24 nonempty code cells executed without recorded errors.
+The 39 scientific output files had modification timestamps
+consistent with regeneration and remained byte-for-byte identical
+to their committed versions.
+
+See the [Computational reproducibility verification](REPRODUCIBILITY_TEST.md)
+report for the test procedure, results, and limitations.
+
+This test does not establish independent reproduction in a newly
+installed software environment.
