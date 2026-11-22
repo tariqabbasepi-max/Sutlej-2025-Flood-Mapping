@@ -4,8 +4,11 @@
 
 This repository is designed to share the **analysis input rasters, image-interpreted validation points, Google Earth Engine (GEE) preprocessing script, Python/Jupyter notebook, candidate-water mapping outputs, validation and sensitivity tables, and provenance** from a **20 × 20 km (400 km²) pilot study** in the Sutlej floodplain near Bahawalpur, Pakistan.
 
-> **Release status:** Template + original supplied code. The binary research data and output files are **not bundled in the initial downloadable template**. Populate the folders from the project's original working directory using `tools/collect_project_files.py`, then run the preflight. Do **not** claim that the public repository contains the inputs/outputs until they are actually published and accessible.
-
+> **Repository Status: Research Reproducibility Package**
+>
+> This repository contains the Sentinel-1 and Sentinel-2 input rasters, 400 image-interpreted validation points, Google Earth Engine preprocessing code, Python/Jupyter analysis notebook, classification outputs, validation results, sensitivity analyses, and reproducibility documentation for the 2025 Sutlej floodplain pilot study.
+>
+> The methodology was quantitatively evaluated using 400 image-interpreted reference points, cross-sensor agreement analysis, and parameter-sensitivity testing. Independent field validation and province-wide implementation remain outside the scope of this study.
 ## Study scope and interpretation
 
 - Analysis periods: dry May–June 2025; wet September 2025.
@@ -31,21 +34,20 @@ This repository is designed to share the **analysis input rasters, image-interpr
 | `03_Analysis_Outputs/07_Publication_Ready/Tables/` | Selected publication tables (CSV) |
 | `tools/` | Local data collection and GitHub-size preflight scripts |
 
-The publication figures are optional during the first upload; `--include-figures` also collects the original, supplementary and publication-ready TIFF figures. The manuscript, cover letter, reviewer response, and any interview records are intentionally excluded.
+The publication figures are included in this repository.  The manuscript, cover letter, reviewer response, and any interview records are intentionally excluded.
 
-## First-time setup on Ubuntu 26.04 + JupyterLab
+## Running the analysis
 
-The source notebook was built with a Python 3.13 kernel (metadata records 3.13.13), but **your actual `gee` environment versions have not been supplied or verified**. Prefer running the existing Conda environment rather than unnecessarily reinstalling packages:
+Activate the existing Conda environment from the repository root:
 
-```bash
-conda activate gee
-cd ~/Documents/Sutlej-2025-Flood-Mapping
-python tools/collect_project_files.py --source ~/Documents/Sutlej_2025_FloodMapping_Reproducibility
-python tools/preflight.py
-jupyter lab --ServerApp.root_dir="$PWD"
-```
+1. Run `conda activate gee`.
+2. Run `python3 tools/preflight.py`.
+3. Run `jupyter lab --ServerApp.root_dir="$PWD"`.
 
-Open **`02_Analysis_Code/Sutlej2025_GMM_SLIC_GraphCut_v2.1_TIFF600.ipynb`**, choose a kernel belonging to `gee`, and execute cells in order after confirming all input files are present. Alternatively, for a fresh environment, `environment.yml` gives an **unpinned starter environment**, not an exact reproduction lockfile. Capture the tested versions from your own computer with `bash tools/capture_environment.sh`.
+Open the notebook in `02_Analysis_Code/` and execute its cells in order.
+
+The supplied environment file is not an exact version lockfile.
+Use `bash tools/capture_environment.sh` to record your tested environment.
 
 ### Portable paths
 
@@ -64,19 +66,17 @@ Preserve *all* five conventional shapefile components with the same basename. Do
 
 **GEE exports are not produced by GitHub itself.** The JavaScript references public GEE collections, and its export tasks require a GEE user account, quotas and potentially manual steps.
 
-## Populate the local repository copy (no automatic GitHub upload)
+## Repository contents and verification
 
-Extract this package into `~/Documents/Sutlej-2025-Flood-Mapping`. The copy script reads files from your **existing** `~/Documents/Sutlej_2025_FloodMapping_Reproducibility` and writes copies into this new folder; it never deletes the originals. First preview changes:
+This repository contains the six satellite input rasters,
+the validation-point shapefile, analysis code, classification
+rasters, evaluation tables, sensitivity results, publication
+figures, and reproducibility records.
 
-```bash
-conda activate gee
-cd ~/Documents/Sutlej-2025-Flood-Mapping
-python tools/collect_project_files.py --source ~/Documents/Sutlej_2025_FloodMapping_Reproducibility --dry-run
-python tools/collect_project_files.py --source ~/Documents/Sutlej_2025_FloodMapping_Reproducibility
-python tools/preflight.py
-```
+Run `python3 tools/preflight.py` to verify essential file presence.
 
-Add `--include-figures` to collect figure TIFFs, too. The script does **not** replace the included source code unless you explicitly pass `--use-local-code` to select the versions stored on your computer. A `COLLECTION_REPORT.csv` is created and any missing expected files are reported. If missing source data or required output files are reported, do not call the repository complete.
+The preflight check does not establish that an independent
+scientific rerun has succeeded.
 
 ## GitHub upload and publication
 
@@ -86,10 +86,12 @@ Only after successfully publishing the full agreed dataset, code, and output fil
 
 ## Reproducibility limitations
 
-- The notebook code and GEE script are supplied here verbatim. **No scientific rerun was performed in this prepared package** because the six input rasters and the reference shapefile were not uploaded to this conversation.
-- Outputs may differ due to software versions, GEE collection updates, image availability, or a different processing environment. Record versions and compare output tables/rasters before submission.
-- GEE's currently enabled NDFI tasks alone do not regenerate SAR/RGB exports.
-- The `environment.yml` in this template lists dependencies without exact validated versions. Capture a lock export from your successful original run.
+- Analysis inputs and code are provided.
+- An independent clean-environment rerun has not yet been documented.
+- Software versions and Earth Engine processing conditions may affect results.
+- SAR and RGB exports require additional GEE export steps.
+- The environment specification is not an exact dependency lockfile.
+- Image-interpreted reference points are not independent field observations.
 
 ## Citation and licensing
 
