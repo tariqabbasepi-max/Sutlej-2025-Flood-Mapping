@@ -1,0 +1,20 @@
+,value
+comparison,inter-method wet-season water agreement; NOT accuracy
+compared_pixels,999712
+compared_area_km2,399.88480000000004
+observed_agreement,0.9271530200697801
+expected_chance_agreement,0.7536292200957532
+cohens_kappa,0.7043197250967332
+water_iou,0.5951704624415625
+water_dice,0.7462155004181767
+both_water_km2,42.8268
+SAR_only_water_km2,8.087200000000001
+optical_only_water_km2,21.043200000000002
+neither_water_km2,327.92760000000004
+missing_either_pixels,288
+SAR_water_area_whole_grid_km2,51.0264
+wet_NDFI_water_area_whole_grid_km2,63.870000000000005
+kappa_block_bootstrap_95pct_low,0.656542010449361
+kappa_block_bootstrap_95pct_high,0.744683374710375
+kappa_bootstrap_block_width_m,1000
+kappa_bootstrap_replicates,300

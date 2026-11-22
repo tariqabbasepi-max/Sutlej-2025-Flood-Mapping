@@ -1,0 +1,8 @@
+Measure,Value,Unit
+Wet-season SAR candidate water,51.0264,km²
+Wet-season NDFI candidate water,63.870000000000005,km²
+Optical newly appearing water,62.78,km²
+Optical new water also mapped by wet SAR,42.29,km²
+Wet SAR–NDFI observed agreement,92.715302006978,%
+Wet SAR–NDFI Cohen κ,0.7043197250967332,unitless
+Water-class intersection over union,0.5951704624415625,unitless

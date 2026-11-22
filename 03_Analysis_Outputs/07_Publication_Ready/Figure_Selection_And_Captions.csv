@@ -1,0 +1,10 @@
+figure,placement,caption_draft
+Fig. 1,Manuscript,Sentinel-2 surface-reflectance RGB composites of the 20 × 20 km Sutlej window in the dry and wet observation periods. Common UTM extent; white denotes invalid RGB data.
+Fig. 2,Manuscript,Wet-season Sentinel-1/2 candidate-water agreement (A) and shares of jointly valid 20 m cells (B). Agreement is not independent classification accuracy.
+Fig. 3,Manuscript,Optical dry-to-wet water transitions and areas also classified as wet-season SAR water. Concurrence supports a candidate-inundation interpretation; neither map confirms flood origin.
+Fig. 4,Manuscript,"Confusion counts and class-wise sample agreement relative to purposively balanced, Sentinel-2 RGB-interpreted labels. The labels are not ground observations and do not support design-based area-adjusted accuracy."
+Fig. S1,Supplementary,"Fitted Gaussian mixture in wet VV dB and lower-backscatter component posterior. Posterior ambiguity is model-based, not a calibrated probability of flooding."
+Fig. S2,Supplementary,"Sensitivity of approximate inter-method agreement intervals to 0.5, 1 and 2 km spatial bootstrap blocks. Intervals quantify agreement uncertainty, not ground-truth accuracy."
+Fig. S3,Supplementary,Local percentage of mutually valid cells classified differently by SAR and NDFI in 1 × 1 km grid cells. Disagreement is not synonymous with error.
+Fig. S4,Supplementary,Change in candidate newly appearing optical water and SAR-corroborated area under stricter NDFI decision margins. Area sensitivity does not measure accuracy.
+Fig. S5,Supplementary,Ten-metre candidate-water intersection over union between SAR parameter variants and the prespecified baseline; stability relative to baseline is not accuracy.

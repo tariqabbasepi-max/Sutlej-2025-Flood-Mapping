@@ -1,0 +1,56 @@
+path,bytes,width_px,height_px,dpi
+03_Analysis_Outputs/01_Rasters/Sutlej2025_NDFI_DryWet_Transitions4Class_20m.tif,38903,,,
+03_Analysis_Outputs/01_Rasters/Sutlej2025_NDFI_WetMinusDry_Continuous_20m.tif,3724921,,,
+03_Analysis_Outputs/01_Rasters/Sutlej2025_NDFI_WetWater_20m.tif,35139,,,
+03_Analysis_Outputs/01_Rasters/Sutlej2025_OpticalNewWater_AND_WetSAR_StrictCandidate_20m.tif,19314,,,
+03_Analysis_Outputs/01_Rasters/Sutlej2025_OpticalNewWater_WetSAR_Evidence4Class_20m.tif,46362,,,
+03_Analysis_Outputs/01_Rasters/Sutlej2025_SAR_WetWater_GMM_SLIC_GraphCut_10m.tif,55375,,,
+03_Analysis_Outputs/01_Rasters/Sutlej2025_WetSAR_WetNDFI_Fusion4Class_20m.tif,46033,,,
+03_Analysis_Outputs/01_Rasters/Sutlej2025_WetVV_GMM_SLIC_GraphCut_Water_20m.tif,20483,,,
+03_Analysis_Outputs/02_Figures/Manuscript/Fig_01_Seasonal_Sentinel2_RGB.tiff,20743216,4251.0,2480.0,"[600.0, 600.0]"
+03_Analysis_Outputs/02_Figures/Manuscript/Fig_02_WetWater_Intermethod_Agreement.tiff,1453552,4251.0,3425.0,"[600.0, 600.0]"
+03_Analysis_Outputs/02_Figures/Manuscript/Fig_03_Candidate_New_Inundation.tiff,1258982,4251.0,2716.0,"[600.0, 600.0]"
+03_Analysis_Outputs/02_Figures/Manuscript/Fig_04_Reference_Validation_Confusion_Matrices.tiff,874864,4251.0,2220.0,"[600.0, 600.0]"
+03_Analysis_Outputs/02_Figures/Supplementary/Fig_S01_GMM_WetVV_Density.tiff,552544,3543.0,2007.0,"[600.0, 600.0]"
+03_Analysis_Outputs/02_Figures/Supplementary/Fig_S02_GraphCut_Sensitivity.tiff,442472,3543.0,2007.0,"[600.0, 600.0]"
+03_Analysis_Outputs/02_Figures/Supplementary/Fig_S03_NDFI_Margin_Sensitivity.tiff,490246,3543.0,2125.0,"[600.0, 600.0]"
+03_Analysis_Outputs/03_Tables/Manuscript/Table_01_Area_and_Agreement.csv,271,,,
+03_Analysis_Outputs/03_Tables/Manuscript/Table_01_Area_and_Agreement.tiff,560242,4251.0,1771.0,"[600.0, 600.0]"
+03_Analysis_Outputs/03_Tables/Manuscript/Table_02_Reference_Validation.csv,392,,,
+03_Analysis_Outputs/03_Tables/Manuscript/Table_02_Reference_Validation.tiff,436784,4251.0,1417.0,"[600.0, 600.0]"
+03_Analysis_Outputs/03_Tables/Supplementary/GMM_Fit_Diagnostics.json,546,,,
+03_Analysis_Outputs/03_Tables/Supplementary/NDFI_DryWet_ZeroThreshold_TransitionAreas.csv,275,,,
+03_Analysis_Outputs/03_Tables/Supplementary/NDFI_continuous_dry_wet_difference_stats.csv,732,,,
+03_Analysis_Outputs/03_Tables/Supplementary/SAR_Wet_and_NDFI_NewInundation_AreaSummary.csv,393,,,
+03_Analysis_Outputs/03_Tables/Supplementary/Table_S01_Wet_VV_Statistics.csv,161,,,
+03_Analysis_Outputs/03_Tables/Supplementary/Table_S02_GMM_Components.csv,137,,,
+03_Analysis_Outputs/03_Tables/Supplementary/Table_S04_Reference_Validation_All_Cohorts.csv,611,,,
+03_Analysis_Outputs/03_Tables/Supplementary/WetSAR_WetNDFI_Fusion4Class_Areas.csv,222,,,
+03_Analysis_Outputs/03_Tables/Supplementary/WetSAR_WetNDFI_agreement_metrics.csv,730,,,
+03_Analysis_Outputs/03_Tables/Supplementary/WetSAR_WetNDFI_confusion_matrix.csv,77,,,
+03_Analysis_Outputs/04_Validation/NDFI_Confusion_Matrix_common_valid.csv,61,,,
+03_Analysis_Outputs/04_Validation/NDFI_Confusion_Matrix_map_valid.csv,61,,,
+03_Analysis_Outputs/04_Validation/Reference_Point_Audit.csv,257,,,
+03_Analysis_Outputs/04_Validation/Reference_Point_Predictions.csv,26588,,,
+03_Analysis_Outputs/04_Validation/Reference_Validation_Metrics_All.csv,611,,,
+03_Analysis_Outputs/04_Validation/SAR_Confusion_Matrix_common_valid.csv,61,,,
+03_Analysis_Outputs/04_Validation/SAR_Confusion_Matrix_map_valid.csv,61,,,
+03_Analysis_Outputs/05_Sensitivity/NDFI_NewWater_Margin_Sensitivity.csv,409,,,
+03_Analysis_Outputs/05_Sensitivity/SAR_20m_vote_sensitivity.csv,72,,,
+03_Analysis_Outputs/05_Sensitivity/Table_S03_SAR_Parameter_Sensitivity.csv,2795,,,
+03_Analysis_Outputs/06_Reproducibility/Analysis_Provenance.json,2942,,,
+03_Analysis_Outputs/06_Reproducibility/Input_Inventory.json,1638,,,
+03_Analysis_Outputs/07_Publication_Ready/Figure_Selection_And_Captions.csv,1735,,,
+03_Analysis_Outputs/07_Publication_Ready/Manuscript/Fig01_Seasonal_Optical_Context.tiff,21090760,4251.0,2433.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Manuscript/Fig02_SAR_NDFI_WetAgreement.tiff,1107158,4251.0,2622.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Manuscript/Fig03_CandidateNewWater_Evidence.tiff,1297312,4251.0,2905.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Manuscript/Fig04_ImageInterpretedReference_Agreement.tiff,1164510,4251.0,2196.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Supplementary/FigS01_GMM_Fit_And_Ambiguity.tiff,807224,4251.0,1937.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Supplementary/FigS02_SpatialBlock_Bootstrap.tiff,467180,4251.0,1889.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Supplementary/FigS03_Spatial_Disagreement_1km.tiff,1948542,3543.0,2834.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Supplementary/FigS04_NDFI_Margin_Sensitivity.tiff,424050,3779.0,1913.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Supplementary/FigS05_SAR_Parameter_Stability.tiff,534528,3779.0,1913.0,"[600.0, 600.0]"
+03_Analysis_Outputs/07_Publication_Ready/Tables/Table01_WaterExtent_Agreement.csv,380,,,
+03_Analysis_Outputs/07_Publication_Ready/Tables/Table02_ImageInterpreted_Reference.csv,272,,,
+03_Analysis_Outputs/07_Publication_Ready/Tables/Table_S01_Block_Bootstrap_Sensitivity.csv,468,,,
+03_Analysis_Outputs/07_Publication_Ready/Tables/Table_S02_Spatial_Disagreement_1km.csv,7549,,,

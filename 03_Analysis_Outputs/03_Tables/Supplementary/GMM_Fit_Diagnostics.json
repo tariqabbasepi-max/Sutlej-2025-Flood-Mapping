@@ -1,0 +1,21 @@
+{
+  "converged": true,
+  "em_iterations": 3,
+  "sample_seed": 2025,
+  "fit_random_state": 42,
+  "n_init": 2,
+  "requested_sample_size": 160000,
+  "actual_sample_size": 160000,
+  "component_separation_pooled_sigma": 3.0130903720855713,
+  "all_posterior_crossings_db": [
+    -12.863304138183594,
+    9.977750778198242
+  ],
+  "posterior_crossings_at_or_below_bright_cap_db": [
+    -12.863304138183594
+  ],
+  "observed_valid_min_db": -25.663829803466797,
+  "observed_max_after_bright_cap_db": -2.0,
+  "bright_cap_db": -2.0,
+  "log_odds_limit": 16.0
+}

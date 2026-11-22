@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the accompanying manuscript if you use these materials."
+title: "Sutlej 2025 Sentinel-1/Sentinel-2 candidate-water mapping: reproducibility code and data"
+type: software
+authors:
+  - family-names: Abbas
+    given-names: Tariq
+# Confirm complete author list, version, repository URL, DOI and publication metadata before release.

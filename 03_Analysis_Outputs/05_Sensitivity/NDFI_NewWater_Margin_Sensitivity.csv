@@ -1,0 +1,5 @@
+ndfi_margin,min_ndfi_increase,optical_new_candidate_pixels,optical_new_candidate_km2,wetSAR_corroborated_pixels,wetSAR_corroborated_km2,fraction_of_raw_zero_threshold_new_water
+0.0,0.0,156950,62.78,105725,42.29,1.0
+0.03,0.1,140263,56.1052,102213,40.885200000000005,0.8936795157693533
+0.05,0.15,131973,52.7892,99204,39.6816,0.8408601465434852
+0.1,0.2,107822,43.128800000000005,84296,33.7184,0.6869831156419242

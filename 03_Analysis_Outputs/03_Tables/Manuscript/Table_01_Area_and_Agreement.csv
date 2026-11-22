@@ -1,0 +1,7 @@
+Measure,Value,Unit
+Wet SAR water,51.0264,km²
+Wet NDFI water,63.870000000000005,km²
+Optical newly appearing water,62.78,km²
+Optical new water ∩ wet SAR,42.29,km²
+Wet SAR / NDFI observed agreement,92.715302006978,%
+Wet SAR / NDFI Cohen κ,0.7043197250967332,unitless

@@ -1,0 +1,21 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+# editor/system
+.DS_Store
+*.swp
+*~
+# Local environment exports may need review before public release
+environment.local.yml
+conda.explicit.txt
+# local temporary files
+*.tmp
+
+# Review local package list before sharing
+pip-freeze.local.txt

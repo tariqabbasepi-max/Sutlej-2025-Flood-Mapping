@@ -1,0 +1,6 @@
+code,meaning,pixels,area_km2
+0,Neither optical new water nor SAR wet water,821202,328.4808
+1,NDFI new-water transition AND wet SAR water (corroborated candidate),105725,42.29
+2,NDFI new-water transition ONLY (not identified by SAR),51225,20.490000000000002
+3,SAR wet-season water WITHOUT optical new-water transition,21560,8.624
+225,NoData in SAR or either NDFI period,288,0.11520000000000001

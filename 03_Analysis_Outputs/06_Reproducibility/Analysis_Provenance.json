@@ -1,0 +1,93 @@
+{
+  "date_utc": "2026-11-22T04:14:34.377656+00:00",
+  "study_area": "20 km x 20 km Sutlej 2025",
+  "crs": "EPSG:32642",
+  "dry_vv_used_for_training": false,
+  "wet_vv_source": "01_Analysis_Input_Data/Sentinel_1_SAR/S1_VV_Wet_Sep_2025_10m.tif",
+  "reference_source": "01_Analysis_Input_Data/Reference_Data/Validation_Points_2025.shp",
+  "reference_status": "Proxy reference labels; origin/independence to be described by authors",
+  "reference_used_for_training_or_tuning": false,
+  "gmm_components": 2,
+  "gmm_samples_requested": 160000,
+  "gmm_samples_actual": 160000,
+  "gmm_sampling_seed": 2025,
+  "gmm_fit_random_state": 42,
+  "gmm_n_init": 2,
+  "gmm_max_iter": 180,
+  "gmm_fit_diagnostics": {
+    "converged": true,
+    "em_iterations": 3,
+    "sample_seed": 2025,
+    "fit_random_state": 42,
+    "n_init": 2,
+    "requested_sample_size": 160000,
+    "actual_sample_size": 160000,
+    "component_separation_pooled_sigma": 3.0130903720855713,
+    "all_posterior_crossings_db": [
+      -12.863304138183594,
+      9.977750778198242
+    ],
+    "posterior_crossings_at_or_below_bright_cap_db": [
+      -12.863304138183594
+    ],
+    "observed_valid_min_db": -25.663829803466797,
+    "observed_max_after_bright_cap_db": -2.0,
+    "bright_cap_db": -2.0,
+    "log_odds_limit": 16.0
+  },
+  "gmm_reg_covar": 0.025,
+  "gmm_bright_cap_db": -2.0,
+  "gmm_log_odds_limit": 16.0,
+  "slic_intensity_db_range": [
+    -23.0,
+    2.0
+  ],
+  "slic_max_num_iter": 7,
+  "graphcut_pairwise_sigma_db": 2.0,
+  "graphcut_capacity_scale": 64.0,
+  "graphcut_baseline_diagnostics": {
+    "segments_actual": 9282,
+    "segments_with_valid_pixels": 9282,
+    "median_valid_pixels_per_segment": 421.0,
+    "slic_within_segment_rms_db": 1.1633118439804269,
+    "graph_edges": 27300,
+    "graphcut_unary_abs_sum": 20748894.026538484,
+    "graphcut_pairwise_cost_sum_at_lambda": 4390713.640441213,
+    "graphcut_max_flow_scaled": 6287603,
+    "graphcut_capacity_scale": 64.0,
+    "graphcut_pairwise_sigma_db": 2.0,
+    "water_pct_raw_valid": 13.003725,
+    "number_of_removed_patches": 0,
+    "removed_water_pixels_10m": 0,
+    "n_segments_requested": 10000,
+    "compactness": 0.08,
+    "graphcut_lambda": 10.0,
+    "min_patch_pixels_10m": 100,
+    "water_pct_clean_valid": 13.003725,
+    "elapsed_seconds": 0.20669174194335938
+  },
+  "sar_parameters": {
+    "n_segments": 10000,
+    "compactness": 0.08,
+    "graphcut_lambda": 10.0,
+    "min_patch_pixels_10m": 100
+  },
+  "water_votes_per_2x2": 3,
+  "ndfi_wet_water": "wet >= 0",
+  "ndfi_new_water": "dry < 0 and wet >= 0",
+  "figure_dpi": 600,
+  "figure_nominal_width_mm": 180,
+  "intermethod_cohens_kappa": 0.7043197250967332,
+  "validation_jointly_valid_points": 400,
+  "software": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "scikit-image": "0.26.0",
+    "rasterio": "1.5.1",
+    "geopandas": "1.1.4",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "Pillow": "12.3.0"
+  }
+}

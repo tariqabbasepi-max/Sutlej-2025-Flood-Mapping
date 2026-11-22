@@ -1,0 +1,6 @@
+code,meaning,pixels,area_km2
+0,Stable non-water,838865,335.546
+1,Newly appearing water candidate,156950,62.78
+2,Water present in both periods,2725,1.09
+3,Water-to-non-water transition,1172,0.46880000000000005
+225,At least one NDFI observation missing,288,0.11520000000000001

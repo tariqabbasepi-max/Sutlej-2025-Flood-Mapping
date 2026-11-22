@@ -1,0 +1,80 @@
+[
+  {
+    "path": "01_Analysis_Input_Data/Sentinel_1_SAR/S1_VV_Dry_MayJun_2025_10m.tif",
+    "bands": 1,
+    "width": 2001,
+    "height": 2001,
+    "crs": "EPSG:32642",
+    "resolution_m": [
+      10.0,
+      10.0
+    ],
+    "nodata": null
+  },
+  {
+    "path": "01_Analysis_Input_Data/Sentinel_1_SAR/S1_VV_Wet_Sep_2025_10m.tif",
+    "bands": 1,
+    "width": 2001,
+    "height": 2001,
+    "crs": "EPSG:32642",
+    "resolution_m": [
+      10.0,
+      10.0
+    ],
+    "nodata": null
+  },
+  {
+    "path": "01_Analysis_Input_Data/Sentinel_2_Optical/S2_NDFI_Dry_MayJun_2025_20m.tif",
+    "bands": 1,
+    "width": 1001,
+    "height": 1001,
+    "crs": "EPSG:32642",
+    "resolution_m": [
+      20.0,
+      20.0
+    ],
+    "nodata": null
+  },
+  {
+    "path": "01_Analysis_Input_Data/Sentinel_2_Optical/S2_NDFI_Wet_Sep_2025_20m.tif",
+    "bands": 1,
+    "width": 1001,
+    "height": 1001,
+    "crs": "EPSG:32642",
+    "resolution_m": [
+      20.0,
+      20.0
+    ],
+    "nodata": null
+  },
+  {
+    "path": "01_Analysis_Input_Data/Sentinel_2_Optical/S2_RGB_Dry_MayJun_2025_10m.tif",
+    "bands": 3,
+    "width": 2001,
+    "height": 2001,
+    "crs": "EPSG:32642",
+    "resolution_m": [
+      10.0,
+      10.0
+    ],
+    "nodata": -9999.0
+  },
+  {
+    "path": "01_Analysis_Input_Data/Sentinel_2_Optical/S2_RGB_Wet_Sep_2025_10m.tif",
+    "bands": 3,
+    "width": 2001,
+    "height": 2001,
+    "crs": "EPSG:32642",
+    "resolution_m": [
+      10.0,
+      10.0
+    ],
+    "nodata": -9999.0
+  },
+  {
+    "path": "01_Analysis_Input_Data/Reference_Data/Validation_Points_2025.shp",
+    "features": 400,
+    "crs": "EPSG:32642",
+    "geometry": "Point"
+  }
+]

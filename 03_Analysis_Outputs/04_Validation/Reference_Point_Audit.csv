@@ -1,0 +1,2 @@
+total_reference_points,reference_nonflood,reference_flood,outside_study_area,duplicate_coordinate_count,SAR_valid_points,NDFI_valid_points,common_valid_points,SAR_excluded_points,NDFI_excluded_points,common_excluded_points
+400,200,200,0,0,400,400,400,0,0,0

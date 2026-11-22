@@ -1,0 +1,13 @@
+# Dependency list inferred from notebook imports (not a version-locked record).
+# Prefer an actual conda export from the successfully tested `gee` environment.
+notebook
+jupyterlab
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+scikit-image
+geopandas
+rasterio
+Pillow

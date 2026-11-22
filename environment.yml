@@ -1,0 +1,19 @@
+# Starter environment; NOT the verified exact environment used to produce the manuscript.
+# If you already have the working Conda environment `gee`, continue using it.
+name: sutlej-2025-reproduction
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - geopandas
+  - rasterio
+  - pillow
+  - pip
