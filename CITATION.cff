@@ -6,3 +6,5 @@ authors:
   - family-names: Abbas
     given-names: Tariq
 # Confirm complete author list, version, repository URL, DOI and publication metadata before release.
+
+repository-code: "https://github.com/tariqabbasepi-max/Sutlej-2025-Flood-Mapping"
